@@ -81,7 +81,7 @@ function CheckGameOver() {
     if (answer !== "") {
         game_info.innerText = `Current Player - ${answer} is winner`
         GameBtn.classList.add("active");
-       
+       return;
     }
 //    let supose game is drow
 let fillcount = 0;
